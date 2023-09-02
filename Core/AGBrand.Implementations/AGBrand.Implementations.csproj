@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AGBrand.Contracts\AGBrand.Contracts.csproj" />
+    <ProjectReference Include="..\AGBrand.Models\AGBrand.Models.csproj" />
+    <ProjectReference Include="..\AGBrand.Packages\AGBrand.Packages.csproj" />
+    <ProjectReference Include="..\AGBrand.Repository\AGBrand.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

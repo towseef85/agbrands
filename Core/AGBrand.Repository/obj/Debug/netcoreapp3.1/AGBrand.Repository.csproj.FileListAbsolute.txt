@@ -1,0 +1,17 @@
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Repository.deps.json
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Repository.runtimeconfig.json
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Repository.runtimeconfig.dev.json
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Repository.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Repository.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Models.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Packages.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Models.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\bin\Debug\netcoreapp3.1\AGBrand.Packages.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.csprojAssemblyReference.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.AssemblyInfoInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.AssemblyInfo.cs
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.csproj.CoreCompileInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.csproj.CopyComplete
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Repository\obj\Debug\netcoreapp3.1\AGBrand.Repository.genruntimeconfig.cache

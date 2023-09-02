@@ -1,0 +1,9 @@
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\bin\Debug\netcoreapp3.1\AGBrand.Packages.deps.json
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\bin\Debug\netcoreapp3.1\AGBrand.Packages.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\bin\Debug\netcoreapp3.1\AGBrand.Packages.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\obj\Debug\netcoreapp3.1\AGBrand.Packages.csprojAssemblyReference.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\obj\Debug\netcoreapp3.1\AGBrand.Packages.AssemblyInfoInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\obj\Debug\netcoreapp3.1\AGBrand.Packages.AssemblyInfo.cs
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\obj\Debug\netcoreapp3.1\AGBrand.Packages.csproj.CoreCompileInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\obj\Debug\netcoreapp3.1\AGBrand.Packages.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Packages\obj\Debug\netcoreapp3.1\AGBrand.Packages.pdb

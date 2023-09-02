@@ -1,0 +1,12 @@
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\bin\Debug\netcoreapp3.1\AGBrand.Models.deps.json
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\bin\Debug\netcoreapp3.1\AGBrand.Models.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\bin\Debug\netcoreapp3.1\AGBrand.Models.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\bin\Debug\netcoreapp3.1\AGBrand.Packages.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\bin\Debug\netcoreapp3.1\AGBrand.Packages.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.csprojAssemblyReference.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.AssemblyInfoInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.AssemblyInfo.cs
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.csproj.CoreCompileInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.csproj.CopyComplete
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Models\obj\Debug\netcoreapp3.1\AGBrand.Models.pdb

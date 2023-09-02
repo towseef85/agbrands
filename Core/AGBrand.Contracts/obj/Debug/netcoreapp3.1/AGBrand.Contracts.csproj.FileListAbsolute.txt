@@ -1,0 +1,14 @@
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Contracts.deps.json
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Contracts.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Contracts.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Models.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Packages.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Models.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\bin\Debug\netcoreapp3.1\AGBrand.Packages.pdb
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.csprojAssemblyReference.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.AssemblyInfoInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.AssemblyInfo.cs
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.csproj.CoreCompileInputs.cache
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.csproj.CopyComplete
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.dll
+D:\Projects-2020\AG_Brand\API\Code\Core\AGBrand.Contracts\obj\Debug\netcoreapp3.1\AGBrand.Contracts.pdb

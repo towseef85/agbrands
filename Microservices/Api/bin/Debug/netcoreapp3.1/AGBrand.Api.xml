@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AGBrand.Api</name>
+    </assembly>
+    <members>
+        <member name="T:AGBrand.Api.Controllers.AuthController">
+            <summary>
+            Auth Api Controller
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.#ctor(AGBrand.Contracts.IWrapper)">
+            <summary>
+            AuthController Constructor
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.ChangePasswordAsync(AGBrand.Models.Api.Auth.PostChangePasswordRequest)">
+            <summary>
+            Forgot Password
+            </summary>
+            <param name="postForgotPasswordRequest"></param>
+            <response code="200">Successfully Changed The Password</response>
+            <response code="401">Invalid Or Expired Action Token</response>
+            <response code="400">Email Id/Mobile Invalid or Not Verified</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.GetOtpAsync(AGBrand.Models.Api.Auth.PostGetOtpRequest)">
+            <summary>
+            Get Otp For Forgot Password/Change Password
+            </summary>
+            <param name="postGetOtpRequest"></param>
+            <response code="200">Successfully Sent Otp For Email Id/Mobile Validation</response>
+            <response code="400">Invalid Email Id/Mobile</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.LoginAsync(AGBrand.Models.Api.Auth.PostLoginRequest)">
+            <summary>
+            Login User
+            </summary>
+            <param name="postLoginRequest"></param>
+            <response code="200">Login Successful</response>
+            <response code="400">Invalid Email Id/Mobile</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.LogoutAsync(AGBrand.Models.Api.Auth.PostLogoutRequest)">
+            <summary>
+            Logout User
+            </summary>
+            <param name="postLogoutRequest"></param>
+            <response code="200">Logout Successful</response>
+            <response code="205">Refresh Token Expired/Invalid or Logout Failed</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.RefreshTokenAsync(AGBrand.Models.Api.Auth.PostRefreshTokenRequest)">
+            <summary>
+            Refresh Auth Token
+            </summary>
+            <param name="postRefreshTokenRequest"></param>
+            <response code="200">Refresh Token Successful</response>
+            <response code="205">Refresh Token Expired/Invalid or Refresh Token Failed</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.ResendOtpAsync(AGBrand.Models.Api.Auth.PostResendOtpRequest)">
+            <summary>
+            Resend Otp
+            </summary>
+            <param name="postResendOtpRequest"></param>
+            <response code="200">Resend Otp Successful</response>
+            <response code="400">Otp Request Expired/Invalid</response>
+            <response code="401">Otp Token Signature Invalid</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.SignUpAsync(AGBrand.Models.Api.Auth.PostSignUpRequest)">
+            <summary>
+            Signup User
+            </summary>
+            <param name="postSignUpRequest"></param>
+            <response code="200">Successfully Sent Otp For Email Id/Mobile Validation</response>
+            <response code="400">Email Id/Mobile Invalid/Unavailable For Signup</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.AuthController.ValidateOtpAsync(AGBrand.Models.Api.Auth.PostValidateOtpRequest)">
+            <summary>
+            Validate Otp
+            </summary>
+            <param name="postValidateOtpRequest"></param>
+            <response code="200">Otp Token Validated And Successfully Created Action Token</response>
+            <response code="400">Otp Request Invalid/Expired</response>
+            <response code="401">Otp Token Signature Invalid</response>
+        </member>
+        <member name="T:AGBrand.Api.Controllers.BrandsController">
+            <summary>
+            Brand Api Controller
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.BrandsController.#ctor(AGBrand.Contracts.IWrapper)">
+            <summary>
+            Brands Controller Constructor
+            </summary>
+            <param name="wrapper"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.BrandsController.GetAsync(AGBrand.Packages.Models.PagerArgs)">
+            <summary>
+            Get All Brands
+            </summary>
+            <response code="200">Successfully Fetched Brands Collection</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.BrandsController.GetByIdAsync(System.Int32)">
+            <summary>
+            Get Brand By Id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.BrandsController.AddAsync(AGBrand.Models.Api.Brands.PostAddBrandRequest)">
+            <summary>
+            Add Brand
+            </summary>
+            <param name="postAddBrandRequest"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.BrandsController.DeleteAsync(System.Int32)">
+            <summary>
+            Delete Brand
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.BrandsController.EditAsync(AGBrand.Models.Api.Brands.PostUpdateBrandRequest)">
+            <summary>
+            Edit Brand
+            </summary>
+            <param name="postUpdateBrandRequest"></param>
+        </member>
+        <member name="T:AGBrand.Api.Controllers.CategoriesController">
+            <summary>
+            Categories Api Controller
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.#ctor(AGBrand.Contracts.IWrapper)">
+            <summary>
+            Categories Controller Constructor
+            </summary>
+            <param name="wrapper"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.GetAsync">
+            <summary>
+            Get All Categories
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.GetByIdAsync(System.Int32)">
+            <summary>
+            Get Category By Id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.AddAsync(AGBrand.Models.Api.Categories.PostAddCategoryRequest)">
+            <summary>
+            Add Category
+            </summary>
+            <param name="postAddCategoryRequest"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.DeleteAsync(System.Int32)">
+            <summary>
+            Delete Category
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.EditAsync(AGBrand.Models.Api.Categories.PostUpdateCategoryRequest)">
+            <summary>
+            Edit Category
+            </summary>
+            <param name="postUpdateCategoryRequest"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.CategoriesController.GetCategoryProductsAsync(System.Int32,AGBrand.Packages.Models.PagerArgs)">
+            <summary>
+            Get Products for Category
+            </summary>
+            <param name="id"></param>
+            <param name="pagerArgs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AGBrand.Api.Controllers.ProductsController">
+            <summary>
+            Products Api Controller
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.ProductsController.#ctor(AGBrand.Contracts.IWrapper)">
+            <summary>
+            Products Controller Constructor
+            </summary>
+            <param name="wrapper"></param>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.ProductsController.GetAsync(AGBrand.Packages.Models.PagerArgs)">
+            <summary>
+            Get All Products
+            </summary>
+            <response code="200">Successfully Fetched Products Collection</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.ProductsController.GetByIdAsync(System.Int32)">
+            <summary>
+            Get Product By Id
+            </summary>
+            <response code="200">Successfully Fetched Single Product By Id</response>
+            <response code="401">Unauthorized</response>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.ProductsController.AddAsync(AGBrand.Models.Api.Products.PostAddProductRequest)">
+            <summary>
+            Add Product
+            </summary>
+            <param name="postAddProductRequest"></param>
+        </member>
+        <member name="T:AGBrand.Api.Controllers.UsersController">
+            <summary>
+            Users Api Controller
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.UsersController.#ctor(AGBrand.Contracts.IWrapper)">
+            <summary>
+            UsersController Constructor
+            </summary>
+        </member>
+        <member name="M:AGBrand.Api.Controllers.UsersController.AddAsync(AGBrand.Models.Api.Users.PostAddUserRequest)">
+            <summary>
+            Create User
+            </summary>
+            <param name="postAddUserRequest"></param>
+            <response code="201">User Created Successfully</response>
+            <response code="400">Invalid Data Object</response>
+            <response code="401">Action Token Invalid/Expired or Signature Invalid</response>
+        </member>
+        <member name="T:AGBrand.Program">
+            <summary>
+            Program Class
+            </summary>
+        </member>
+        <member name="M:AGBrand.Program.Main(System.String[])">
+            <summary>
+            Main Method
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:AGBrand.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Host Builder Method
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:AGBrand.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:AGBrand.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:AGBrand.Startup.Configuration">
+            <summary>
+            Configuration Object
+            </summary>
+        </member>
+        <member name="M:AGBrand.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Services
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AGBrand.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Startup Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+    </members>
+</doc>
